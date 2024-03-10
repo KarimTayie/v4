@@ -125,7 +125,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'Django',
+    'Flask',
+    'FastAPI',
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'Node.js',
+    'React',
+    'Angular',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,31 +145,32 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Karim and I enjoy creating things that live on the internet. My
+              interest in web development started back in 2018 when I decided to study{' '}
+              <a href="https://courses.edx.org/certificates/86acbf82451a4d338edfc45b25307fbe">
+                edx's CS50
+              </a>{' '}
+              course, where I embarked on a quest to understand the core principles of computer
+              science. This foundation now beautifully complements my ongoing digital ventures!
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://easykash.net/">an online payment platform</a>,{' '}
+              <a href="https://nafhambytyro.com/">an e-learning platform</a>, and{' '}
+              <a href="https://xpay.app/">a fintech company</a>. My main focus these days is
+              building the backend side of <a href="https://ureed.com/">Ureed.com</a> at{' '}
+              <a href="https://tarjama.com/">Tarjama</a>.
             </p>
 
-            <p>
+            {/* <p>
               I also recently{' '}
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
                 launched a course
               </a>{' '}
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
