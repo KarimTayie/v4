@@ -5,7 +5,7 @@ module.exports = {
     title: 'Karim Tayie',
     description:
       'Karim Tayie is a self-taught software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'http://karimtayie.com/', // No trailing slash allowed!
+    siteUrl: 'https://karimtayie.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@KarimTayie',
   },
